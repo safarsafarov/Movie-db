@@ -1,11 +1,2 @@
-import './App.scss';
-
-function App(){
-  return (
-    <div>
-      App
-    </div>
-  );
-}
-
-export default App;
+import 'swiper/swiper.min.css'
+import './assets/boxincons-2.1.2/css/boxincons.min.css'

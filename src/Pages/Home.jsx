@@ -1,11 +1,11 @@
 import React from "react";
 
-const Header = () => {
+const Home = () => {
     return (
         <div>
-            Header
+            Home
         </div>
     )
 }
 
-export default Header;
+export default Home;

@@ -1,11 +1,11 @@
 import React from "react";
 
-const Header = () => {
+const Catalog = () => {
     return (
         <div>
-            Header
+            Catalog
         </div>
     )
 }
 
-export default Header;
+export default Catalog;
