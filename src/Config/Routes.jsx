@@ -1,10 +1,10 @@
-import React from "react";
-
+import React from 'react';
 
 import { Router, Route } from 'react-router-dom';
+
 import Home from '../Pages/Home';
-import Catalog from "../Pages/Catalog";
-import Details from "../Pages/Details";
+import Catalog from '../Pages/Catalog';
+import Detail from '../Pages/detail/Detail';
 
 const Routes = () => {
     return (
@@ -15,13 +15,13 @@ const Routes = () => {
             />
             <Route
                 path='/:category/:id'
-                component={Details}
+                component={Detail}
             />
             <Route
                 path='/:category'
                 component={Catalog}
             />
-             <Route
+            <Route
                 path='/'
                 exact
                 component={Home}
