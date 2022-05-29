@@ -1,15 +1,14 @@
 import React from "react";
 
 
-import { Route, Switch } from "react-router-dom";
-
-import Home from '../pages/Home';
+import { Router, Route } from 'react-router-dom';
+import Home from '../Pages/Home';
 import Catalog from "../Pages/Catalog";
 import Details from "../Pages/Details";
 
 const Routes = () => {
     return (
-        <Switch>
+        <Router>
             <Route
                 path='/:category/search/:keyword'
                 component={Catalog}
@@ -27,7 +26,7 @@ const Routes = () => {
                 exact
                 component={Home}
             />
-        </Switch>
+        </Router>
     );
 }
 

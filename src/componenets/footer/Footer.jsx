@@ -2,9 +2,9 @@ import React from "react";
 
 
 const Footer = () => {
-    retunr (
+    return (
         <div>
-
+            Footer
         </div>
     )
 }

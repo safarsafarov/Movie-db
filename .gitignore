@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 
+/assets/boxicons-2.1.2
 /src/api
 
 # testing
