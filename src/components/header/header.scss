@@ -41,4 +41,11 @@
             justify-content: center;
         }
     }
+
+    &__nav {
+         @include flex(center, unset);
+        & > * ~ * {
+            margin-left: 2rem;
+        }
+    }
 }
